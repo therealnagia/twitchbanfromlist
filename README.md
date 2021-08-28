@@ -14,7 +14,7 @@ You can even run it before stream to make sure that you have the latest ban list
 	7. A box will pop up at the end when the script completes! 
 
 
-**	Ban list source: **
+###	Ban list source: 
 https://docs.google.com/document/d/1_F3qKiwkECmHYJvHv4hevkOYWundzNewpC_PcSGBj1I/edit
 
 If latest release is after last updated date/time then it should have the latest, otherwise, notify me, and/or just submit a PR
