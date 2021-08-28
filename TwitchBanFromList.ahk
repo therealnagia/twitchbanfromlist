@@ -1,3 +1,5 @@
+Esc::ExitApp
+
 F12::
 FileRead, banlist, %A_ScriptDir%\banlist.txt
 Loop, Parse, banlist, `n, `r
@@ -14,5 +16,4 @@ Loop, Parse, banlist, `n, `r
 }
 Return
 
-ESC::
-	Exit
+
