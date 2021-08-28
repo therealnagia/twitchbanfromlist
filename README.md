@@ -1,4 +1,4 @@
-# TwitchBanFromL	ist
+# TwitchBanFromList
 ## AHK text entry script that bans people from a text file.
 
 Very hacked together but "simple" way of using AHK to ban a bunch of identified bot accounts, 
