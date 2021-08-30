@@ -12,10 +12,17 @@ You can even run it before stream to make sure that you have the latest ban list
 	5. DO NOT TOUCH YOUR MOUSE OR KEYBOARD WHILE THE SCRIPT RUNS 
 	6. Watch as all of the names on the list get banned one after the other in your chat box!
 	7. A box will pop up at the end when the script completes! 
+	
+### Linux Instructions:
+	Required packages: xdotool
+	1. Run bash script via 'bash twitchban.sh' (5 second timer starts)
+	2. Click into your twitch chat text entry field
+	3. After 5 seconds of running twitchban.sh, it should automatically start running through the ban list
 
-
+##	Credits
 ###	Ban list source: 
 https://docs.google.com/document/d/1_F3qKiwkECmHYJvHv4hevkOYWundzNewpC_PcSGBj1I/edit
+###	Linux script port: iguanaonmystack
 
 If latest release is after last updated date/time then it should have the latest, otherwise, notify me, and/or just submit a PR
 
