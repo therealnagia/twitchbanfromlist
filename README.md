@@ -13,7 +13,7 @@ You can even run it before stream to make sure that you have the latest ban list
 
 ## Linux Instructions:
 ### Instructions:
-1. Go to the releases page, downloaded the latest exe
+1. Go to the releases page, downloaded the latest binary
 2. Get an login token from [https://twitchapps.com/tmi/](https://twitchapps.com/tmi/)
 3. Run the exe from powershell
 > Example: `.\twitchbanfromlist -channel yourchannel -token oauth:wfaest45z4wtg9waf92`
