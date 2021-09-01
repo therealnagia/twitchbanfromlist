@@ -32,7 +32,7 @@ func main() {
 	// Check if parameters set
 	if Auth.ChannelName != "" || Auth.OauthToken != "" {
 		log.Println("[Info] Token and Channel set")
-		func() {
+		go func() {
 			log.Println("[Info] Starting Client Connection")
 			client := twitch.NewClient(Auth.ChannelName, Auth.OauthToken)
 
