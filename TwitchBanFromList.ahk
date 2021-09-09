@@ -1,7 +1,7 @@
 Main:
 msgbox,
 (
-TwitchBanFromList v1.210830b
+TwitchBanFromList v1.210908b
 -----------------------------------
 This script can BAN or BLOCK (or both) 
 a large amount of users from a txt file. 
@@ -28,7 +28,7 @@ Loop, Parse, banlist, `n, `r
 	if (A_LoopField = "BANLISTEND")
 	{
 		msgbox, Everyone on the list has been banned! `nExiting!
-		Exit
+		ExitApp
 	}	
 	clipboard := "/ban " . A_LoopField
 	PasteEnterFcn()
@@ -42,7 +42,7 @@ Loop, Parse, banlist, `n, `r
 	if (A_LoopField = "BANLISTEND")
 	{
 		msgbox, Everyone on the list has been [[BLOCKED]]! `nExiting!
-		Exit
+		ExitApp
 	}	
 	clipboard := "/block " . A_LoopField	
 	PasteEnterFcn()
@@ -56,7 +56,7 @@ Loop, Parse, banlist, `n, `r
 	if (A_LoopField = "BANLISTEND")
 	{
 		msgbox, Everyone on the list has been [[BANNED]] AND [[BLOCKED]]! `nExiting!
-		Exit
+		ExitApp
 	}	
 	clipboard := "/ban " . A_LoopField
 	PasteEnterFcn()
