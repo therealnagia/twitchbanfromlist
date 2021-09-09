@@ -4,7 +4,7 @@
 Very hacked together but "simple" way of using AHK to ban a bunch of identified bot accounts, 
 You can even run it before stream to make sure that you have the latest ban list (if you trust the list below)
 
-###Features:
+### Features:
 	* Ban from list with F12 Key
 	* Block from list with F11 Key
 	* Perform both ban and block with F10 key
