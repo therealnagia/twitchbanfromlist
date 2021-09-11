@@ -27,9 +27,13 @@ You can even run it before stream to make sure that you have the latest ban list
 ##	Credits
 ###	Ban list sources: 
 https://docs.google.com/document/d/1_F3qKiwkECmHYJvHv4hevkOYWundzNewpC_PcSGBj1I/edit
+
 twitter@MissRayvenn: https://docs.google.com/document/d/1F5tMM2oTDlJJ41320vJFd8MVDW_mGKnU_Q9RFWdY-fM/edit 
+
 twitter@MissRayvenn: https://pastebin.com/FyxGesEw 
+
 gh@iguanaonmystack / gh@biosniper: Linux script port 
+
 ### More list contributors!
 twitter@OpalStreams, gh@liadala, gh@biosniper, twitter@ItsRogueRen
 
