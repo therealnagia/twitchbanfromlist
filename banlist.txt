@@ -445,4 +445,5 @@ hoss00312_new
 hoss____00312
 hoss_____00312
 hoss00312_0_0
+hoss00312_hahaha
 BANLISTEND
