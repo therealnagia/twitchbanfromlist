@@ -30,5 +30,5 @@ while IFS="" read -r p || [ -n "$p" ]; do
     fi
     xdotool type "/ban $p"
     xdotool key Return
-    sleep 0.2
+    sleep 0.4
 done < "$SOURCE"
