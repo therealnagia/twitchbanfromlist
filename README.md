@@ -6,7 +6,7 @@ You can even run it before stream to make sure that you have the latest ban list
 
 ### CAUTION:
 - While there are many happy people that have used this script, PLEASE USE THIS SCRIPT AT YOUR OWN RISK
-- Per [Isssue #15](https://github.com/therealnagia/twitchbanfromlist/issues/15), some users report experiencing temporary shadow bans from using this script with lists that are very large. 
+- Per [Issue #15](https://github.com/therealnagia/twitchbanfromlist/issues/15), some users report experiencing temporary shadow bans from using this script with lists that are very large. 
 - This script will be reworked to add more safety options in the near future. 
 
 ### Features:
@@ -28,8 +28,6 @@ You can even run it before stream to make sure that you have the latest ban list
 	1. Run bash script via 'bash twitchban.sh' (5 second timer starts)
 	2. Click into your twitch chat text entry field
 	3. After 5 seconds of running twitchban.sh, it should automatically start running through the ban list
-	
-
 	
 
 ##	Credits
