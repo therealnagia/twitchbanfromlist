@@ -1,7 +1,7 @@
 Main:
 msgbox,
 (
-TwitchBanFromList v1.210908b
+TwitchBanFromList v1.211008b
 -----------------------------------
 This script can BAN or BLOCK (or both) 
 a large amount of users from a txt file. 
@@ -14,6 +14,7 @@ Instructions:
 	   KEYBOARD WHILE THE SCRIPT RUNS 
 	4. Watch as all of the names on the list get banned 
 	   one after the other in your chat box!
+	5. At the end of the banlist, Whitelist unbanning will occur
 	5. A box will pop up at the end when the script 
 	   completes! (script will exit)
 )	
@@ -27,6 +28,7 @@ Loop, Parse, banlist, `n, `r
 {
 	if (A_LoopField = "BANLISTEND")
 	{
+		WhitelistRun()
 		msgbox, Everyone on the list has been banned! `nExiting!
 		ExitApp
 	}	
@@ -41,6 +43,7 @@ Loop, Parse, banlist, `n, `r
 {
 	if (A_LoopField = "BANLISTEND")
 	{
+		WhitelistRun()
 		msgbox, Everyone on the list has been [[BLOCKED]]! `nExiting!
 		ExitApp
 	}	
@@ -55,6 +58,7 @@ Loop, Parse, banlist, `n, `r
 {
 	if (A_LoopField = "BANLISTEND")
 	{
+		WhitelistRun()
 		msgbox, Everyone on the list has been [[BANNED]] AND [[BLOCKED]]! `nExiting!
 		ExitApp
 	}	
@@ -73,4 +77,18 @@ PasteEnterFcn()
 	Send {Enter}
 	sleep 100
 }
-
+WhitelistRun()
+{
+FileRead, whitelist, %A_ScriptDir%\whitelist.txt
+	Loop, Parse, whitelist, `n, `r
+	{
+		if (A_LoopField = "LISTEND")
+		{
+			break
+		}	
+		clipboard := "/unban " . A_LoopField
+		PasteEnterFcn()
+		clipboard := "/unblock " . A_LoopField
+		PasteEnterFcn()
+	}
+}

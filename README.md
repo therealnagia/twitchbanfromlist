@@ -4,10 +4,14 @@
 Very hacked together but "simple" way of using AHK to ban a bunch of identified bot accounts, 
 You can even run it before stream to make sure that you have the latest ban list (if you trust the list below)
 
+
+Since there have been a few (2-3) usernames that have been brought to my attention that are legit accounts, a whitelist.txt has been created. It will run after every ban command, empty it if you don't want to whitelist anyone. 	
+
 ### Features:
 	* Ban from list with F12 Key
 	* Block from list with F11 Key
 	* Perform both ban and block with F10 key
+	* Runs through a whitelist after banning and blocking
 
 ## Instructions:
 	1. Go to the releases page, downloaded the latest exe
@@ -39,7 +43,9 @@ twitter@OpalStreams, gh@liadala, gh@biosniper, twitter@ItsRogueRen
 
 
 ### Similar names but legit accounts:
-Sources: https://twitter.com/MissRayvenn/status/1432409056459776000
+Sources: 
+https://twitter.com/MissRayvenn/status/1432409056459776000
+https://twitter.com/StygianStyx/status/1446779342818889729
 
 If latest release is after last updated date/time then it should have the latest, otherwise, notify me, and/or just submit a PR
 
